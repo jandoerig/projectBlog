@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jandoerig/projectBlog/issues"
   },
-  "homepage": "https://github.com/jandoerig/projectBlog#readme"
+  "homepage": "https://github.com/jandoerig/projectBlog#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
