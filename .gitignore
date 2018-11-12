@@ -1,2 +1,7 @@
-.idea/
-node_modules/
+node_modules
+client/dist
+client/app/**/*.html
+client/views/**/*.html
+client/app/**/*.css
+client/css/*.css
+.idea
