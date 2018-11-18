@@ -5,8 +5,12 @@ const app = express();
 const port = process.env.PORT || 3001;
 app.use(express.static(path.join(__dirname, 'build')));
 
-app.get('/', function (req, res) {
+app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
+app.get('/blog', function (req, res) {
+    res.sendFile(path.join(__dirname, 'build', 'blog.html'));
 });
 
 app.listen(port, () => {

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro');
+
+body {
+    background-image: url("../../images/index/zuerchersmuehleWasserfall.jpg");
+    background-size: 90%;
+}
+button {
+    font-family: 'Advent Pro', sans-serif;
+    color: #711c0f;
+    font-size: 10vh;
+    border-color: black;
+
+}
+
+button:hover {
+    animation-name: Homebutton-onHover;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    cursor: grab;
+}
+
+@keyframes Homebutton-onHover {
+   0% {background-color: rgba(113,109,111,0) }
+   50% {background-color: rgba(113, 109, 111, 0.2)}
+    100% {background-color: rgba(113,109,111,0.5)}
+}
+
+.Homebutton-blogButton {
+    width: 49vw;
+    height: 49vh;
+    background-color: transparent;
+    margin-left: 0.5vw;
+}
+
+.Homebutton-aboutMeButton {
+    width: 49vw;
+    height: 49vh;
+    background-color: transparent;
+    margin-left: 0.5vw;
+}
+
+.Homebutton-galleryButton {
+    width: 49vw;
+    height: 49vh;
+    background-color: transparent;
+}
+
+.Homebutton-contactMeButton {
+    width: 49vw;
+    height: 49vh;
+    background-color: transparent;
+    margin: 0;
+}
